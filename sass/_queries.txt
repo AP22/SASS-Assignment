@@ -1,0 +1,21 @@
+$breakpoint-small: 700px;
+$breakpoint-medium: 900px;
+$breakpoint-large: 1400px;
+
+@media screen and (min-width: $breakpoint-small){
+  .container{
+    max-width: $breakpoint-small;
+  }
+}
+
+@media screen and (min-width: $breakpoint-medium){
+  .container{
+    max-width: $breakpoint-medium;
+  }
+}
+
+@media screen and (min-width: $breakpoint-large){
+  .container{
+    max-width: $breakpoint-large;
+  }
+}
